@@ -4,13 +4,13 @@
 }
 
 .MargenBotonCA{
-    margin-top: 20px;
-    max-width: 200px;
+    margin-top: 30px;
+    max-width: 300px;
 }
 
 .CustomFont{
     font-family: "Edwardian",'Courier New', Courier, monospace;
-    font-size: 120px;
+    font-size: 170px;
 }
 
 .ContainerMain{
@@ -25,7 +25,7 @@
 }
 
 .ContainerSelector{
-    display: none;
+    /* display: none; */
 }
 
 .EsconderObjetos{
@@ -34,13 +34,14 @@
 }
 
 .TamañoDeFuente{
-font-size: 110px;
+font-size: 130px;
 }
 
 .EspacioEntreBotones{
-    margin: 10px;
+    margin: 5px;
 }
 
 .CustomButon{
-    font-size: 30px;
+    font-size: 50px;
+    min-width: 300px;
 }
