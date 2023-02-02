@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Edwardian";
+    src: url("Fuentes/ITCEDSCR.TTF");
+}
+
+.MargenBotonCA{
+    margin-top: 20px;
+    max-width: 200px;
+}
+
+.CustomFont{
+    font-family: "Edwardian",'Courier New', Courier, monospace;
+    font-size: 120px;
+}
+
+.ContainerMain{
+    text-align: center;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+    min-width: 270px;
+}
+
+.ContainerSelector{
+    display: none;
+}
+
+.EsconderObjetos{
+    margin: 60px;
+    display: block;
+}
+
+.TamañoDeFuente{
+font-size: 110px;
+}
+
+.EspacioEntreBotones{
+    margin: 10px;
+}
+
+.CustomButon{
+    font-size: 30px;
+}
