@@ -14,7 +14,7 @@
 
 <body>
     <div class="d-flex ContainerMain">
-        <div class="container bg-light rounded-4">
+        <div class="container ContainerBgColor rounded-5">
             <div>
                 <h1 class="CustomFont">Telar</h1>
                 <h6 class="fw-lighter">By @TelaresMexico</h5>
@@ -22,7 +22,7 @@
             <div class="EsconderObjetos">
                 <h3>INSTRUCTOR PARA TU TELAR</h3>
                 <input type="file" id="selectedFile" style="display: none;" />
-                <input class="container MargenBotonCA btn btn-danger" type="button" value="ABRIR TELAR"
+                <input class="container MargenBotonCA btn CustomButtonAbrirTelar" type="button" value="ABRIR TELAR"
                     onclick="document.getElementById('selectedFile').click()" />
             </div>
         </div>
@@ -32,7 +32,7 @@
 
 
     <div class="ContainerMain ContainerSelector">
-        <div class="container p-5 bg-light rounded-4">
+        <div class="container p-5 ContainerBgColor rounded-5">
             <div class="container input-group mb-3" style="max-width: 180px;">
                 <button class="btn btn-outline-secondary" type="button" onclick="SetNumLin()">Ir a:</button>
                 <input type="text" class="form-control" id="IraLinea" placeholder="Linea...">
@@ -42,9 +42,10 @@
             <h2 id="output1"></h2>
             <h2>HASTA:</h2>
             <h1 class="TamañoDeFuente" id="output2"></h1>
-            <div class="btn btn-danger EspacioEntreBotones CustomButon" type="button"
-                onclick="decrementValue();UpdateTexts()">ANTERIOR</div>
-            <div class="btn btn-info EspacioEntreBotones CustomButon" type="button" onclick="incrementValue();UpdateTexts()">
+            <div class="btn CustomButtonAntPost AnteriorButton EspacioEntreBotones CustomButon" type="button"
+                onclick="MenosCookie()">ANTERIOR</div>
+            <div class="btn CustomButtonAntPost SiguienteButton EspacioEntreBotones CustomButon" type="button"
+                onclick="MasCookie()">
                 SIGUIENTE</div>
 
         </div>
@@ -59,13 +60,18 @@
 
 </html>
 
+<!--Pie de paginas-->
 
+<footer class="FotterStyle">
+    <div class="row align-items-center">
+        <div class="col">
 
+            <p class="FotterTextStyle">
 
+                &copy; 2022, TELARES MEXICO by K&S.
 
-<script text='javascript'>
-    document.cookie =
-    'galleta=' + encodeURIComponent('chocolate') +
-    '; max-age=' + 60*60*24*30 +
-    '; path=/; domain=tudominio.com' ;
-    </script>
+            </p>
+
+        </div>
+    </div>
+</footer>

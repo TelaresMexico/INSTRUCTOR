@@ -1,47 +1,98 @@
 @font-face {
-    font-family: "Edwardian";
-    src: url("Fuentes/ITCEDSCR.TTF");
+  font-family: "Edwardian";
+  src: url("Fuentes/ITCEDSCR.TTF");
 }
 
-.MargenBotonCA{
-    margin-top: 30px;
-    max-width: 300px;
+body{
+background-color: #ffded89f;
 }
 
-.CustomFont{
-    font-family: "Edwardian",'Courier New', Courier, monospace;
-    font-size: 170px;
+.MargenBotonCA {
+  margin-top: 30px;
+  max-width: 300px;
 }
 
-.ContainerMain{
-    text-align: center;
-    align-items: center;
-    height: auto;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 60%;
-    min-width: 400px;
+.CustomFont {
+  font-family: "Edwardian", "Courier New", Courier, monospace;
+  font-size: 170px;
 }
 
-.ContainerSelector{
-    display: none;
+.ContainerMain {
+  text-align: center;
+  align-items: center;
+  height: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 60%;
+  min-width: 400px;
 }
 
-.EsconderObjetos{
-    margin: 60px;
-    display: block;
+.ContainerBgColor{
+    background-color: #ffffff;
 }
 
-.TamañoDeFuente{
-font-size: 130px;
+.ContainerSelector {
+  display: none;
 }
 
-.EspacioEntreBotones{
-    margin: 5px;
+.EsconderObjetos {
+  margin: 60px;
+  display: block;
 }
 
-.CustomButon{
-    font-size: 50px;
-    min-width: 300px;
+.TamañoDeFuente {
+  font-size: 130px;
+}
+
+.EspacioEntreBotones {
+  margin: 5px;
+}
+
+.CustomButon {
+  font-size: 50px;
+  min-width: 300px;
+}
+
+.FotterTextStyle {
+  margin: auto;
+  text-align: center;
+  color: #666666;
+  
+}
+
+.FotterStyle {
+  margin: 0px;
+  /* background-color: #d2adef5f; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.CustomButtonAbrirTelar {
+    font-size: 35px;
+  color: #ffffff;
+  background-color: #7f3065de;
+  /* background-color: #c3028c; */
+  /* border-color: #004e64; */
+  font-weight: bold;
+  /* letter-spacing: 0.05em;
+  border-radius: 0; */
+}
+
+.CustomButtonAntPost {
+    font-size: 35px;
+  color: #000000;
+}
+
+.AnteriorButton{
+    background-color: #edacc4;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.SiguienteButton{
+    background-color: #ab8fc0;
+    color: #ffffff;
+    font-weight: bold;
 }
