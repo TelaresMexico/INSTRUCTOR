@@ -25,6 +25,7 @@ file.addEventListener("change", () => {
     ShoworHide();
     UpdateTexts();
     listenForKeys = true;
+    window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
   };
 
   fr.readAsText(file.files[0]);
@@ -70,7 +71,7 @@ function MasCookie() {
     ConteoLinea++;
     UpdateTexts();
   }else{
-    document.getElementById("output2").textContent = "Finalizaste!";
+    document.getElementById("output2").textContent = "Fin!";
   }
 
   
